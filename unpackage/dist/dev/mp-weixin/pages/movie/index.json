@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ace-rate": "/components/AceRate/index"
+  }
+}

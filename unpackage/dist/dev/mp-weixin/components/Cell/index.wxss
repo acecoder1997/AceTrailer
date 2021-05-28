@@ -1,0 +1,42 @@
+
+.ace-cell {
+	background-color: #FFFFFF;
+}
+.ace-cell-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 14rpx 0;
+	margin: 0 10rpx;
+	border-bottom: 1px solid #EAEAEA;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.ace-cell-label {
+	padding: 4rpx;
+}
+.ace-cell-body {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding-right: 10rpx;
+	text-align: right;
+}
+.icon-wrapper {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.ace-cell-icon {
+	width: 36rpx;
+	height: 36rpx;
+}
+

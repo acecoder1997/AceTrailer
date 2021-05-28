@@ -1,0 +1,24 @@
+
+.ace-label {
+	margin-top: 12rpx;
+	padding: 20rpx 10rpx;
+}
+.ace-label-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	        flex-flow: row;
+}
+.ace-label-icon {
+	width: 30rpx;
+	height: 30rpx;
+	margin: 8rpx 10rpx 0 0;
+}
+.ace-label-text {
+	font-size: 16px;
+	font-weight: bold;
+}
+

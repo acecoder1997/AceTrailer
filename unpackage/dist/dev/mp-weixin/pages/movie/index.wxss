@@ -1,0 +1,137 @@
+
+.player {
+	background-color: #f7f4f9;
+}
+.movie {
+	width: 100%;
+}
+.movie-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 40rpx 20rpx;
+	background-color: #f7f4f9;
+}
+.cover {
+	width: 280rpx;
+	height: 380rpx;
+}
+.movie-desc {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	        flex-flow: column;
+	margin-left: 30rpx;
+	width: 400rpx;
+}
+.title {
+	font-size: 30px;
+}
+.basic-info {
+	color: darkgray;
+	font-size: 13px;
+	line-height: 36rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.score-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	        flex-flow: row;
+	width: 390rpx;
+	height: 138rpx;
+	padding: 20rpx;
+	margin-top: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, .06);
+	        box-shadow: 0 0 16px rgba(0, 0, 0, .06);
+}
+.score-label {
+	font-size: 12px;
+	color: gray;
+	white-space: nowrap;
+}
+.movie-score {
+	margin-left: 8rpx;
+	color: #FEAB2A;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 70rpx;
+}
+.score-stars {
+	margin-top: 28rpx;
+	margin-left: 24rpx;
+}
+.like-counts {
+	font-size: 12px;
+	color: gray;
+	line-height: 44rpx;
+	white-space: nowrap;
+}
+.plots-block {
+	padding: 20rpx 40rpx;
+	background-color: #f7f4f9;
+}
+.plots-title {
+	margin-top: 20rpx;
+	color: #A9A9A9;
+	font-size: 14px;
+}
+.plots-desc {
+	font-size: 16px;
+	margin-top: 10rpx;
+}
+.scroll-block {
+	padding: 20rpx 40rpx;
+	background-color: #f7f4f9;
+}
+.scroll-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+	width: 100%;
+	margin-top: 20rpx;
+	white-space: nowrap;
+}
+.pic-wrapper {
+	width: 240rpx;
+	height: 320rpx;
+	margin-right: 10rpx;
+}
+.pic-wrapper image {
+	width: 240rpx;
+	height: 100%;
+}
+.staff-wrapper {
+	width: 170rpx;
+
+	margin-right: 10rpx;
+}
+.staff-wrapper image {
+	width: 170rpx;
+	height: 220rpx;
+}
+.staff-name {
+	font-size: 16px;
+	text-align: center;
+}
+.staff-position {
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+}
+

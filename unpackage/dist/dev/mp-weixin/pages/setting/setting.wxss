@@ -1,0 +1,18 @@
+
+.avatar {
+	width: 80rpx;
+	height: 80rpx;
+	margin: 0;
+}
+.bottom-action {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.bottom-action-item {
+	padding: 20rpx 10rpx;
+	margin-bottom: 15rpx;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+

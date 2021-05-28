@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#0066CC",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "预告搜索",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/movie/index",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/cover/index",
+			"style": {
+				"navigationBarTitleText": "封面"
+			}
+		}, {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/registry/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "账户设置",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F8F8F8",
+				"navigationBarBackgroundColor": "#0066CC",
+				"navigationBarTextStyle": "white"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ACE视频",
+		"navigationBarBackgroundColor": "#F8F8F9",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#515151",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabBarIcon/home.png",
+			"selectedIconPath": "static/tabBarIcon/homeActive.png"
+		}, {
+			"text": "搜索",
+			"pagePath": "pages/search/index",
+			"iconPath": "static/tabBarIcon/search.png",
+			"selectedIconPath": "static/tabBarIcon/searchActive.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/user/index",
+			"iconPath": "static/tabBarIcon/user.png",
+			"selectedIconPath": "static/tabBarIcon/userActive.png"
+		}]
+	}
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" class="ace-cell" bindtap="__e"><view class="ace-cell-wrapper"><label class="ace-cell-label">{{label}}</label><view class="ace-cell-body"><slot></slot></view><view class="icon-wrapper"><image class="ace-cell-icon" src="../../static/svg/right.svg"></image></view></view></view>

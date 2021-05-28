@@ -1,0 +1,62 @@
+/* 搜索框 */
+.search-block{
+	display: flex;
+	position: fixed;
+	top: 0;
+	padding: 0 20upx 20upx;
+	/* #ifdef H5 */
+	padding-top: 20upx;
+	/* #endif */
+	z-index: 999;
+	background-color: #f8f8f8;
+}
+.search-ico-wrapper{
+	display: flex;
+	padding: 0 10upx;
+	flex-flow: column;
+	justify-content: center;
+	background-color: #eaeaea;
+}
+.search-ico{
+	width: 28upx;
+	height: 28upx;
+}
+.search-input{
+	width: 650upx;
+	height: 60upx;
+	font-size: 14px;
+	background-color: #eaeaea;
+}
+/* 搜索框-end */
+
+/* 电影列表 */
+.movie-list{
+	display: flex;
+	flex-flow: row wrap;
+	padding-bottom: constant(safe-area-inset-bottom);
+	padding-bottom: env(safe-area-inset-bottom);
+	/* #ifdef MP-WEIXIN */
+	padding: 120upx 10upx 0;
+	/* #endif */
+	/* #ifdef H5 */
+	padding: 30upx 10upx 50px;
+	/* #endif */
+}
+.movie-item{
+	width: 200upx;
+	margin: 0 20upx 10upx;
+}
+.movie-item-poster{
+	display: inline-block;
+	width: 200upx;
+	height: 270upx;
+	padding: 0;
+}
+.movie-item-title{
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 电影列表-end */

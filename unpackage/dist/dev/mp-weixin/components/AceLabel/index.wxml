@@ -1,0 +1,1 @@
+<view class="page-block ace-label"><view class="ace-label-wrapper"><image class="ace-label-icon" src="{{icon}}" mode></image><view class="ace-label-text">{{title}}</view></view></view>

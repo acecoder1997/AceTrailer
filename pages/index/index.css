@@ -1,0 +1,78 @@
+.carousel {
+	width: 100%;
+	height: 440upx;
+}
+
+.carousel uni-image,
+.carousel image {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-item{
+	height: 100%;
+}
+/* 热门 */
+.hot {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.single-poster {
+	display: inline-block;
+	margin-left: 20upx;
+}
+
+.single-poster:last-child {
+	margin-right: 20upx;
+}
+
+.single-poster-wrapper {
+	display: flex;
+	flex-flow: column;
+}
+
+.single-poster-pic {
+	width: 200upx;
+	height: 270upx;
+}
+
+.single-poster-label {
+	width: 200upx;
+	margin-top: 10upx;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 热门 end */
+
+/* 热门预告 */
+.hot-preview {
+	display: flex;
+	padding: 0 10upx;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.hot-preview-video {
+	flex: 1;
+	height: 240upx;
+}
+
+.hot-preview-video:first-child {
+	margin-right: 10upx;
+}
+
+/* 热门预告-end */
+
+/* 猜你喜欢 */
+.guess-movies {
+	/* #ifdef H5 */
+	padding-bottom: calc(100upx + constant(safe-area-inset-bottom));
+	padding-bottom: calc(100upx + env(safe-area-inset-bottom));
+	/* #endif */
+}
+/* 猜你喜欢-end */

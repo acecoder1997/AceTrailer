@@ -1,0 +1,29 @@
+
+.ace-rate {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.ace-rate .star {
+	width: 20rpx;
+	height: 20rpx;
+	margin-top: 6rpx;
+}
+.score {
+	color: #C0C0C0;
+	font-size: 12px;
+	line-height: 32rpx;
+	margin-left: 8rpx;
+}
+@media screen and (min-width:768px) {
+.ace-rate .star {
+		width: 24rpx;
+		height: 24rpx;
+		margin-top: 6rpx;
+}
+.score {
+		font-size: 18px;
+		line-height: 38rpx;
+}
+}
+

@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ace-label": "/components/AceLabel/index",
+    "ace-rate": "/components/AceRate/index",
+    "movie-card": "/pages/index/MovieCard"
+  }
+}

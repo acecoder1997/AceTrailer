@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['longpress',[['handleLongpress',['$event']]]]]}}" class="black" bindlongpress="__e"><image src="{{src}}" mode="widthFix"></image></view>
